@@ -6,16 +6,21 @@ This project implements a scalable data engineering solution built to support At
 Data flows through a Medallion Architecture with three layers:
 
 Bronze — Raw ingestion of source data from S3, preserving original records
+
 Silver — Cleaned, validated, and conformed data ready for transformation
+
 Gold — Aggregated, business-ready data serving analytics and reporting
 
 ⚙️ Pipeline Features
 
 Full Load — Complete historical data ingestion from S3
+
 Incremental Load — Daily delta processing to capture and integrate newly generated data
+
 Automated pipelines designed for reliability and scalability
 
 ☁️ Tech Stack
 
 Source: AWS S3
+
 Processing: [e.g. Apache Spark / Databricks.
